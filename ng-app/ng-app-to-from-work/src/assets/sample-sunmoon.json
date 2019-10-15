@@ -1,0 +1,65 @@
+{
+    "error": false,
+    "apiversion": "2.2.1",
+    "year": 2019,
+    "month": 9,
+    "day": 11,
+    "dayofweek": "Wednesday",
+    "datechanged": false,
+    "state": "WA",
+    "city": "Seattle",
+    "lon": -122.33,
+    "lat": 47.63,
+    "county": "King",
+    "tz": -8,
+    "isdst": "yes",
+    "sundata": [
+        {
+            "phen": "BC",
+            "time": "6:10 a.m. DT"
+        },
+        {
+            "phen": "R",
+            "time": "6:41 a.m. DT"
+        },
+        {
+            "phen": "U",
+            "time": "1:06 p.m. DT"
+        },
+        {
+            "phen": "S",
+            "time": "7:30 p.m. DT"
+        },
+        {
+            "phen": "EC",
+            "time": "8:01 p.m. DT"
+        }
+    ],
+    "moondata": [
+        {
+            "phen": "S",
+            "time": "3:53 a.m. DT"
+        },
+        {
+            "phen": "R",
+            "time": "6:57 p.m. DT"
+        },
+        {
+            "phen": "U",
+            "time": "11:53 p.m. DT"
+        }
+    ],
+    "nextmoondata": [
+        {
+            "phen": "S",
+            "time": "4:56 a.m. DT"
+        }
+    ],
+    "closestphase": {
+        "phase": "Full Moon",
+        "date": "September 13, 2019",
+        "time": "9:33 p.m. DT"
+    },
+    "fracillum": "95%",
+    "curphase": "Waxing Gibbous"
+}

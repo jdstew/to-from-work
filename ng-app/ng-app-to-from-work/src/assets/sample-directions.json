@@ -1,0 +1,351 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJj9Cp6khBkFQR3aS4ZJ9X4Gw",
+         "types" : [ "premise" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJVWpGhGsVkFQR8cFyS6W07tw",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 47.6323215,
+               "lng" : -122.3353668
+            },
+            "southwest" : {
+               "lat" : 47.5252524,
+               "lng" : -122.3927387
+            }
+         },
+         "copyrights" : "Map data ©2019",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "10.7 mi",
+                  "value" : 17140
+               },
+               "duration" : {
+                  "text" : "25 mins",
+                  "value" : 1491
+               },
+               "duration_in_traffic" : {
+                  "text" : "33 mins",
+                  "value" : 1964
+               },
+               "end_address" : "223 W Galer St, Seattle, WA 98119, USA",
+               "end_location" : {
+                  "lat" : 47.6323215,
+                  "lng" : -122.3603124
+               },
+               "start_address" : "8651 46th Ave SW, Seattle, WA 98136, USA",
+               "start_location" : {
+                  "lat" : 47.5252524,
+                  "lng" : -122.3915987
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 165
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : {
+                        "lat" : 47.5267296,
+                        "lng" : -122.3916285
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003e46th Ave SW\u003c/b\u003e toward \u003cb\u003eSW Cloverdale St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ygaaHnr_jVm@?cAAkA?gAAK?E?E@C@A@CB"
+                     },
+                     "start_location" : {
+                        "lat" : 47.5252524,
+                        "lng" : -122.3915987
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "279 ft",
+                        "value" : 85
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : {
+                        "lat" : 47.5267826,
+                        "lng" : -122.3927381
+                     },
+                     "html_instructions" : "\u003cb\u003e46th Ave SW\u003c/b\u003e turns \u003cb\u003eleft\u003c/b\u003e and becomes \u003cb\u003eSW Cloverdale St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "aqaaHtr_jVCDADAB?DAfA?@?fA?f@?L"
+                     },
+                     "start_location" : {
+                        "lat" : 47.5267296,
+                        "lng" : -122.3916285
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.0 mi",
+                        "value" : 4866
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 550
+                     },
+                     "end_location" : {
+                        "lat" : 47.56528309999999,
+                        "lng" : -122.3755738
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eFauntleroy Way SW\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Starbucks (on the right in 2.9&nbsp;mi)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "kqaaHry_jVc@?gHCYAyA?Q?}B?iHAaAA_B?Q?e@?yJEwCAe@?S?]Aq@Sq@Qc@OECWIyCgAs@WuCeA_IqCUIeDmAcA[OGICGAICM?MAW?YAoA?mA?cDAmA?k@AW?GAE?GCGAGCGCIEGEKKKKGMCECCACGKAGKa@ESCKC]Ea@Ec@WgCCa@COIy@Gq@Gs@Eg@CUAMEc@AEGm@Gm@Ec@Gk@I{@CWEYGc@COEOEQESK[GOIQGOIOKQMOOUKKMOUQSOIECCECKEOGICGCGAMC[CQ?qBEo@?_AAu@Aa@?kDCs@AIAKAKCECMGIGAAECEGGKMQIMEIEIMUQYg@w@IMIKIGECQKQEGCI?UAwBCcAC}AAmDEoACI?yCCqEI_IIo@AaAAmCAoB?_@@qC?c@?O?oA?uA?WGGAEAAAACECGIEGEGw@cA_@i@i@y@m@y@S[S[y@mAU[mAeBiAcBm@y@i@q@e@q@}@{AQ[c@gAQ_@?MGW{@yB"
+                     },
+                     "start_location" : {
+                        "lat" : 47.5267826,
+                        "lng" : -122.3927381
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.7 mi",
+                        "value" : 2783
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 152
+                     },
+                     "end_location" : {
+                        "lat" : 47.5711537,
+                        "lng" : -122.3445977
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eWest Seattle Bridge\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the river (on the left in 1.3&nbsp;mi)\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "_biaHhn|iVo@_BIWQ]EMGKCECIGKS]OSEGIIKOWWSOOMe@YMIOGMGGCICKEKCICMCAAIAKCIAYEgAQKCE?AAA?qASMCc@Ic@Ia@I{@Ou@KQEWEa@IKCOCCAME]OQMMI[UKMUYWa@KWKQKWAAK]EKACEK?AACI[CKGY?EG[E]AGC_@ACAOEg@Ai@?U?u@?{AA{D?u@?u@?s@?u@?S?a@?s@?_@?s@?{@?]?c@@iH?cC?u@?u@?Y?S?U?e@?c@AQ?G?K?C?M?E?i@?M?C?s@?u@?G@m@?Q@a@@m@?GBs@@YB[Ds@@IDi@@MNyADi@@IFi@Fk@BYBOFy@?CBY?G@S@W@[@I@k@?C?y@?k@AyB?i@?i@?IAkB?gA?y@?u@?_DAK?mB@u@?sA?u@?s@?kB?iB?_D?u@?s@?u@?iB@yC?EAe@?O?[AY?KCg@Ag@EaAIiBG{A"
+                     },
+                     "start_location" : {
+                        "lat" : 47.56528309999999,
+                        "lng" : -122.3755738
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.1 mi",
+                        "value" : 6610
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : {
+                        "lat" : 47.6216065,
+                        "lng" : -122.3446619
+                     },
+                     "html_instructions" : "Take the exit onto \u003cb\u003eHwy 99 N\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eWA-99 N\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "ufjaHvlviVDK?A@A?C?C?E?GAUAWAYAm@?GAy@?I?g@?K?O?E?I?i@AIAe@AOCs@C]AUCk@AIG}CCu@Cy@?UACCY?_@?EAG?O?M?GAW?M?GAO?A?M?O?gA?gA@]?A?C?A@OBQDQHQDKFKDE?AJIHGBAFCDAFAHCF?B?L@LBNF@@FBFFHJFLDJFLBLBJ@L@L@P?PAH?HCRETEJENINILOLOHSFI@YDSBK@I@I@E@A@A?ABU?I?OAC?M?A?G?I?M?m@Cw@@y@?e@@yA?_B?A?_B@c@AA?A@gBAiB?U?A?A?A?G?c@?c@?A?}@?c@?gA?I?}@?eA?aCCeBCy@AkAAw@?YAsCBgCAaB?}A?_C?K?w@?mC?gBBy@BG?{@BmABY?QAi@C_@EQASEOCMCQGUGOE?AWIIEKESKA?[Q]S{@k@q@c@UM_Am@UMKEi@WWMCASKQKGCw@YGEkAc@s@WiC_AcA_@aBk@yAi@kDmAGAy@UkASEAc@IQEOCc@GgAO}@Em@?a@?eAF{AJc@BQ@QBa@Dc@Dc@Dc@Fc@Dc@DiBRG?[@qADYAgAAc@Ac@AkBCc@?c@AkBCgACc@?c@AK?W?c@@Y?I@c@DQ@ODc@HE@_AVUFKDc@La@LeAZWHk@ReA^a@LA@]Ra@R_@Ta@RQJMJ]Z_@Z]X_@Z]Z}@t@}@t@_@Z]X{ApA{BlB_@Z{ApAyCfC_@X}@v@SPIF{ApA_@Z}@t@]Z}@t@}ApA{@t@OLa@XMHULk@XA?[L]LqBj@c@Ja@JWFo@Na@FgBZe@Dc@FE?aADS@s@@S?O?kBBkB@k@?[?oC@aIDg@?iAC]Ei@GaAO"
+                     },
+                     "start_location" : {
+                        "lat" : 47.5711537,
+                        "lng" : -122.3445977
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 285
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 47.623228,
+                        "lng" : -122.3423807
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eRepublican St\u003c/b\u003e exit",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "abtaHbmviVKOQKa@MECYMWSSM_@YMIg@[KEa@QCAMIKKIMEMEOCQ?S?M?C@C@WB[@Q?M?O?ME_@"
+                     },
+                     "start_location" : {
+                        "lat" : 47.6216065,
+                        "lng" : -122.3446619
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "433 ft",
+                        "value" : 132
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 54
+                     },
+                     "end_location" : {
+                        "lat" : 47.6244157,
+                        "lng" : -122.3423633
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eDexter Ave N\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "eltaHz~uiV{AAq@C_@@]?a@?"
+                     },
+                     "start_location" : {
+                        "lat" : 47.623228,
+                        "lng" : -122.3423807
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 307
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 56
+                     },
+                     "end_location" : {
+                        "lat" : 47.6245302,
+                        "lng" : -122.3462682
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMercer St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "sstaHv~uiVW??v@?N@xA?vA?hB?t@?r@?|A?hB?t@?`A"
+                     },
+                     "start_location" : {
+                        "lat" : 47.6244157,
+                        "lng" : -122.3423633
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 292
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 61
+                     },
+                     "end_location" : {
+                        "lat" : 47.627159,
+                        "lng" : -122.3462605
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eTaylor Ave N\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Domino's Pizza (on the right)\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ittaHdwviVY?Q@a@?oAAS?mB?}@@c@AgA?c@A_@?"
+                     },
+                     "start_location" : {
+                        "lat" : 47.6245302,
+                        "lng" : -122.3462682
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 781
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 122
+                     },
+                     "end_location" : {
+                        "lat" : 47.6271991,
+                        "lng" : -122.3566763
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAloha St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "wduaHbwviV?`C?`C?r@?pA?jA?r@C|F?t@?t@@~C?t@AhB?t@?h@?t@?hBAt@?l@?t@?hB?t@?n@?t@A~C?n@"
+                     },
+                     "start_location" : {
+                        "lat" : 47.627159,
+                        "lng" : -122.3462605
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 582
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 80
+                     },
+                     "end_location" : {
+                        "lat" : 47.6323151,
+                        "lng" : -122.3569492
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eQueen Anne Ave N\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "_euaHfxxiVc@Ac@?gA?_@?SAgAAc@?[?i@AaAAc@?c@?gA?c@A]?_@?{AAo@?uB?G?Q?E?C?C@E@CBE@EDEFCBCFAFADAFAH"
+                     },
+                     "start_location" : {
+                        "lat" : 47.6271991,
+                        "lng" : -122.3566763
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 252
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 47.6323215,
+                        "lng" : -122.3603124
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eW Galer St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : {
+                        "points" : "_evaH|yxiV?`@?R?r@?lA?zA?bC?d@?~A?`C"
+                     },
+                     "start_location" : {
+                        "lat" : 47.6323151,
+                        "lng" : -122.3569492
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ygaaHnr_jVeGC[BKPCrA?nB?Lc@?aIEkB?iQCiQGy@?]Aq@SuAa@]McTwHoG{Bi@IoCCkJCm@Ea@Og@k@QYWiAaAiKk@eG[cDW}A_@qAg@cAw@aAw@k@k@UOEi@GsFGwHGg@K_@Ue@s@k@cAq@eASSWOYI{EIeJK{UYoECoC@uG?uA?WGMCQScB}BgJ_NwAkBcBmCu@cBQ_@?McAqCy@wBc@}@o@gAs@y@c@]s@c@o@WqA[iEq@sGiAaASk@U_@Wg@c@m@{@e@cAe@{ASgAMiAGw@A_AAcK?}I?oY?aEDoCHqBNuB^wDZuDFqA@iBCqN@}i@ImEOkDG{ADK@C?GC{@EiC?gCU}EOmGEsACyAAg@?wA@eB@WHc@N]X]ZO\\EZDPHNJPXTr@D~@ARIh@KZS\\_@V]HcALQDCB_@?c@AmACqFBiF@iNAoGCcHGyT?uFBaABiCFk@AiAIe@Go@O}@Yk@W_HeEsDcBmI{CoJeDy@UkASi@KmCa@kBEa@?eAF_CNc@DmCXyD^mBFaBCwEG{FIkB?yAHyBh@gBh@oExAc@N_Af@aAh@_@V{BlByDbDiR`PqK`JkAbAo@b@aAf@]LoCx@eAVgAViCb@iALgADkBB_HDqMFqBCgAMaAOKOs@Y_@QyAeAs@a@e@SYUO[Ia@?a@F{@@}@E_@{AAqAA_A?W??v@@hB?`E?pH?vBk@@sFAmEA_@??`C?tDCnM@`ICbO?dGAnEgAAcECkDC}JCuC?MBURKXCfA?`J?fG"
+         },
+         "summary" : "Fauntleroy Way SW and Hwy 99 N",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,65 @@
+<div class="container-fluid">
+
+    <h1>{{getGeneralDirection()}}</h1>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tr style="background-color:deepskyblue;" *ngIf=" getRouteDuration() !== null ">
+                <td class="text-right">
+                    <h3>{{getRouteDuration()}}</h3>
+                </td>
+                <td>
+                    <h3>minutes</h3>
+                </td>
+            </tr>
+            <tr style="background-color:indianred;" *ngIf=" getRouteDuration() === null ">
+                <td class="text-right">
+                    <h3>data not available</h3>
+                </td>
+                <td>
+                    <h3>minutes</h3>
+                </td>
+            </tr>
+            <tr *ngIf=" getTemperatureInF() !== null ">
+                <td class="text-right">{{getTemperatureInF() | number:'1.0-0'}}&#8457;</td>
+                <td>temperature</td>
+            </tr>
+            <tr *ngIf="getApparentTemperatureInF() !== null ">
+                <td class="text-right">{{getApparentTemperatureInF() | number:'1.0-0'}}&#8457;</td>
+                <td>it feels like</td>
+            </tr>
+            <tr *ngIf="getPresentWeather() !== null ">
+                <td class="text-right">{{getPresentWeather()}}</td>
+                <td>conditions</td>
+            </tr>
+            <tr *ngIf="((getWindSpeed() !== null) && (getWindSpeed() > 0))">
+                <td class="text-right">{{getWindSpeed() | number:'1.0-0'}}</td>
+                <td>mph of wind</td>
+            </tr>
+            <tr *ngIf="((getSunrise() !== null) && (getSunrise().getTime() > getTimePresentationCutoff()))">
+                <td class="text-right">{{getSunrise().toLocaleTimeString()}}</td>
+                <td>sunrise</td>
+            </tr>
+            <tr *ngIf="((getSunset() !== null) && (getSunset().getTime() > getTimePresentationCutoff()))">
+                <td class="text-right">{{getSunset().toLocaleTimeString()}}</td>
+                <td>sunset</td>
+            </tr>
+            <tr *ngIf="((getMoonrise() !== null) && (getMoonrise().getTime() > getTimePresentationCutoff()))">
+                <td class="text-right">{{getMoonrise().toLocaleTimeString()}}</td>
+                <td>moonrise</td>
+            </tr>
+            <tr *ngIf="getMoonFracillum() !== null ">
+                <td class="text-right">{{getMoonFracillum()}}</td>
+                <td>of moon showing</td>
+            </tr>
+            <tr *ngIf="((getMoonset() !== null) && (getMoonset().getTime() > getTimePresentationCutoff()))">
+                <td class="text-right">{{getMoonset().toLocaleTimeString()}}</td>
+                <td>moonset</td>
+            </tr>
+            <tr *ngIf="usnoData !== undefined">
+                <td class="text-right">{{usnoData.month + '/' + usnoData.day + '/' + usnoData.year}}</td>
+                <td>today's date</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<router-outlet></router-outlet>
